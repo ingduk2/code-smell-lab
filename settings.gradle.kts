@@ -8,4 +8,6 @@ plugins {
 
 rootProject.name = "code-smell-lab"
 
-include()
+include(
+    "transaction-script-vs-domain-model"
+)
